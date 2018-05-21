@@ -1,5 +1,5 @@
 var cities = ["New York", "San Francisco"]
  
-cities[2]= "Home"
+cities[1]= "Home"
 
 console.log(cities)
