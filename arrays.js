@@ -1,3 +1,9 @@
+var chocolateBars = ["snickers","hundred grand","kitkat","skittles"];
+
+
+
+
+
 var cities = ["New York", "San Francisco"];
  
 var cities2 = "Philadelphia";
