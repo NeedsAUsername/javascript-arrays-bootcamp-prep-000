@@ -61,6 +61,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
 }
 
+destructivelyRemoveElementFromBeginningOfArray(a)
+console.log(a)
 
 
 
