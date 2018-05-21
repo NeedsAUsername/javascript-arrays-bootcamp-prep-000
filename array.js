@@ -1,7 +1,5 @@
-function addElementtoBeginningOfArray(array, element) {
-  var array2 = array.unshift(element)
-  console.log(array2)
-}
+var cities = ["New York", "San Francisco"]
+ 
+cities.unshift("Philadelphia")
 
-
-addElementtoBeginningOfArray("[a]","b")
+console.log(cities)
