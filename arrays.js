@@ -72,7 +72,9 @@ a = ["a", "b", "c"]
 console.log(removeElementFromBeginningOfArray(a))
 console.log(a)
 
-
+function destructivelyRemoveElementFromEndOfArray(array) {
+  return array.pop()
+}
 
 
 
