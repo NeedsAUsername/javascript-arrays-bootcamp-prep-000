@@ -4,7 +4,7 @@ var cities2 = "Philadelphia"
 
 
 function addcities(array, element) {
-  var newarray = [...array, `${element}`;
+  var newarray = [...array, `${element}`];
   console.log(newarray);
 }
 
