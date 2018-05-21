@@ -8,6 +8,7 @@ function addElementToBeginningOfArray(array, element) {
   return(newarray);
 }
 
+console.log(cities)
 
 
 function destructivelyaddElementToBeginningOfArray(array, element) {
