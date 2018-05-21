@@ -6,7 +6,7 @@ console.log(cities2)
 
 
 function addcities(array, element) {
-  var newarray = [...array, `${element}`];
+  var newarray = [...array, element;
   console.log(newarray);
 }
 
