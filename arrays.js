@@ -55,18 +55,22 @@ function accessElementInArray(array, index) {
 a = ["a", "b"];
 index = 1;
 
-console.log(accessElementInArray(a,index))
+console.log(accessElementInArray(a,index));
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift()
+  return array.shift();
 }
 
-destructivelyRemoveElementFromBeginningOfArray(a)
-console.log(a)
+destructivelyRemoveElementFromBeginningOfArray(a);
+console.log(a);
 
 function removeElementFromBeginningOfArray(array) {
-  array.slice(1)
+  return array.slice(1);
 }
+
+a = ["a", "b", "c"]
+console.log(removeElementFromBeginningOfArray(a))
+
 
 
 
