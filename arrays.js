@@ -1,6 +1,5 @@
 var cities = ["New York", "San Francisco"]
  
-var cities2 = ["Philadelphia", ...cities] // ["Philadelphia", "New York", "San Francisco"]
- 
+cities[2]= "Home"
 
-console.log(cities2)
+console.log(cities)
