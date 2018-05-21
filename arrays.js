@@ -9,9 +9,6 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 
-addElementToBeginningOfArray()
-console.log(newarray)
-
 
 function destructivelyaddElementToBeginningOfArray(array, element) {
   array.unshift(`${element}`);
