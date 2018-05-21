@@ -37,12 +37,12 @@ console.log(cities);
 console.log(newarray)
 
 
-function destructivelyaddElementToBeginningOfArray(array, element) {
-  array.unshift(`${element}`);
+function destructivelyaddElementToEndOfArray(array, element) {
+  array.push(`${element}`);
   return array;
 }
 
-destructivelyaddElementToBeginningOfArray(cities,cities2);
+destructivelyaddElementToEndOfArray(cities,cities2);
 console.log(cities);
 
 
