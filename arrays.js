@@ -10,7 +10,7 @@ function addElementToBeginningOfArray(array, element) {
 
 addElementToBeginningOfArray(cities,cities2);
 console.log(cities);
-console.log(newarray)
+console.log(newarray);
 
 
 function destructivelyaddElementToBeginningOfArray(array, element) {
@@ -34,7 +34,7 @@ function addElementToEndOfArray(array, element) {
 
 addElementToEndOfArray(cities,cities2);
 console.log(cities);
-console.log(newarray)
+console.log(newarray);
 
 
 function destructivelyaddElementToEndOfArray(array, element) {
@@ -49,8 +49,14 @@ console.log(cities);
 
 
 function accessElementInArray(array, index) {
-  return array[index]
+  return array[index];
 }
+
+a = ["a", "b"];
+index = 2;
+
+console.log(accessElementInArray(a,index))
+
 
 
 
