@@ -46,3 +46,13 @@ destructivelyaddElementToEndOfArray(cities,cities2);
 console.log(cities);
 
 
+
+
+function accessElementInArray(array, index)
+
+
+
+
+
+
+
