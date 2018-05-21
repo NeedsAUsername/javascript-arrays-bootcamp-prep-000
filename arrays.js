@@ -4,7 +4,7 @@ var cities2 = "Philadelphia";
 
 
 function addElementToBeginningOfArray(array, element) {
-  newarray = [ `${element}`...array,];
+  newarray = [`${element}`, ...array,];
   return(newarray);
 }
 
