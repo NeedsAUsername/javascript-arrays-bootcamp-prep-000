@@ -15,4 +15,5 @@ function destructivelyaddElementToBeginningOfArray(array, element) {
   return array
 }
 
+destructivelyaddElementToBeginningOfArray(cities,cities2)
 console.log(cities)
