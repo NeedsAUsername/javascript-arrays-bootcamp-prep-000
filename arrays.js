@@ -64,7 +64,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 destructivelyRemoveElementFromBeginningOfArray(a)
 console.log(a)
 
-function 
+function removeElementFromBeginningOfArray(array) {
+  array.slice(1)
+}
 
 
 
