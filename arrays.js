@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 
-addElementToBeginninerOfArray()
+addElementToBeginningOfArray()
 console.log(newarray)
 
 
