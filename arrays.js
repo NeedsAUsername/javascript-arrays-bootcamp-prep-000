@@ -53,7 +53,7 @@ function accessElementInArray(array, index) {
 }
 
 a = ["a", "b"];
-index = 2;
+index = 1;
 
 console.log(accessElementInArray(a,index))
 
