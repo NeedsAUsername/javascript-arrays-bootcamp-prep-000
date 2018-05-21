@@ -64,7 +64,7 @@ index = 1;
 console.log(accessElementInArray(a,index));
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.shift();
+  array.shift();
 }
 
 destructivelyRemoveElementFromBeginningOfArray(a);
@@ -79,7 +79,7 @@ console.log(removeElementFromBeginningOfArray(a))
 console.log(a)
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop()
+  array.pop();
 }
 
 function removeElementFromEndOfArray(array) {
