@@ -14,5 +14,8 @@ console.log(newarray)
 
 
 function destructivelyaddElementToBeginningOfArray(array, element) {
-  var array = [...]
+  array = [...array, `${element}`]
+  return array
 }
+
+console.log(array)
