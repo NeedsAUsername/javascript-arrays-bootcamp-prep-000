@@ -5,8 +5,8 @@ var cities2 = "Philadelphia"
 
 function addcities(array, element) {
   var newarray = [...array, `${element}`];
-  console.log(newarray);
+  return(newarray);
 }
 
 
-addcities(cities,cities2)
+console.log(addcities(cities,cities2))
