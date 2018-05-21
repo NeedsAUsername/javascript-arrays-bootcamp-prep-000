@@ -65,7 +65,7 @@ console.log(accessElementInArray(a,index));
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array = array.shift();
-  return array
+  return array;
 }
 
 destructivelyRemoveElementFromBeginningOfArray(a);
@@ -75,17 +75,17 @@ function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
 
-a = ["a", "b", "c"]
-console.log(removeElementFromBeginningOfArray(a))
-console.log(a)
+a = ["a", "b", "c"];
+console.log(removeElementFromBeginningOfArray(a));
+console.log(a);
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array = array.pop();
-  return array
+  return array;
 }
 
 function removeElementFromEndOfArray(array) {
-  return array.slice(0, array.length-1)
+  return array.slice(0, array.length-1);
 }
 
 
