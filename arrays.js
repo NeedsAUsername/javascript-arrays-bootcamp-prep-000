@@ -22,6 +22,11 @@ destructivelyaddElementToBeginningOfArray(cities,cities2);
 console.log(cities);
 
 
+
+cities = ["New York", "San Francisco"];
+cities2 = "Philadelphia";
+
+
 function addElementToEndOfArray(array, element) {
   newarray = [...array, `${element}`];
   return(newarray);
