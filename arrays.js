@@ -57,6 +57,9 @@ index = 1;
 
 console.log(accessElementInArray(a,index))
 
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+}
 
 
 
