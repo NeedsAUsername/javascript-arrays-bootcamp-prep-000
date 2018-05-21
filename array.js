@@ -1,5 +1,6 @@
 var cities = ["New York", "San Francisco"]
+var phil = "phil"
  
-cities.unshift("Philadelphia")
+cities.unshift(phil)
 
 console.log(cities)
