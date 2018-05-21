@@ -20,3 +20,24 @@ function destructivelyaddElementToBeginningOfArray(array, element) {
 
 destructivelyaddElementToBeginningOfArray(cities,cities2);
 console.log(cities);
+
+
+function addElementToEndOfArray(array, element) {
+  newarray = [...array, `${element}`];
+  return(newarray);
+}
+
+addElementToEndOfArray(cities,cities2);
+console.log(cities);
+console.log(newarray)
+
+
+function destructivelyaddElementToBeginningOfArray(array, element) {
+  array.unshift(`${element}`);
+  return array;
+}
+
+destructivelyaddElementToBeginningOfArray(cities,cities2);
+console.log(cities);
+
+
