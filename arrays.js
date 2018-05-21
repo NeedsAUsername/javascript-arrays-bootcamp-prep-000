@@ -19,12 +19,12 @@ console.log(cities);
 console.log(newarray);
 
 
-function destructivelyaddElementToBeginningOfArray(array, element) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(`${element}`);
   return array;
 }
 
-destructivelyaddElementToBeginningOfArray(cities,cities2);
+destructivelyAddElementToBeginningOfArray(cities,cities2);
 console.log(cities);
 
 
@@ -43,12 +43,12 @@ console.log(cities);
 console.log(newarray);
 
 
-function destructivelyaddElementToEndOfArray(array, element) {
+function destructivelyAddElementToEndOfArray(array, element) {
   array.push(`${element}`);
   return array;
 }
 
-destructivelyaddElementToEndOfArray(cities,cities2);
+destructivelyAddElementToEndOfArray(cities,cities2);
 console.log(cities);
 
 
