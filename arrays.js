@@ -4,4 +4,4 @@ function addElementtoBeginningOfArray(array, element) {
 }
 
 
-addElementtoBeginningOfArray("[a]","b")
+addElementtoBeginningOfArray("[a, c]","b")
