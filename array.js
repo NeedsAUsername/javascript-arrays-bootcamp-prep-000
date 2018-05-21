@@ -1,9 +1,5 @@
-avar cities = ["New York", "San Francisco"]
-var phil = "phil"
+var cities = ["New York", "San Francisco"]
+ 
+[...cities, "Philadelphia"]
 
-function add(cities, phil) {
-return cities.unshift(phil)
-}
-
-add(cities, phil)
 console.log(cities)
