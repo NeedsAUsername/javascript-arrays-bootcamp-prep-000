@@ -1,7 +1,12 @@
-function addElementtoBeginningOfArray(array, element) {
-  var array2 = [`${element}`, ...array]
-  console.log(array2)
+var cities = ["New York", "San Francisco"]
+ 
+var cities2 = "Philadelphia"
+
+
+function addcities(array, element) {
+  var newarray = [...array, element;
+  console.log(newarray);
 }
 
 
-addElementtoBeginningOfArray([a,c],"b")
+addcities(cities,cities2)
