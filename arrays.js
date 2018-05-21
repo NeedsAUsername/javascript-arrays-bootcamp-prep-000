@@ -15,4 +15,4 @@ function destructivelyaddElementToBeginningOfArray(array, element) {
   return array
 }
 
-console.log(array)
+console.log(cities)
