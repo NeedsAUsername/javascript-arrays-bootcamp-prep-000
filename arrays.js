@@ -70,7 +70,7 @@ function removeElementFromBeginningOfArray(array) {
 
 a = ["a", "b", "c"]
 console.log(removeElementFromBeginningOfArray(a))
-
+console.log(a)
 
 
 
