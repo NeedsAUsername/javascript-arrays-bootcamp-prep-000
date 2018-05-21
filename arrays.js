@@ -1,5 +1,6 @@
-var cities = ["New York", "San Francisco"]
- 
-cities[1]= "Home"
+function addElementtoBeginningOfArray(array, element) {
+  var array2 = array.unshift(element)
+  return array2
+}
 
-console.log(cities)
+
